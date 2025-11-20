@@ -12,7 +12,8 @@ steps:
     commands:
       - git clone https://github.com/oudayer/lumi.git
       - cd lumi
-      - pnpm install
+      - ls
+      - npm install pnpm -g
 
 
 trigger:
