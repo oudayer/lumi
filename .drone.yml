@@ -10,6 +10,7 @@ steps:
     image: nest-pm2-app:latest
     commands:
       - ll
+      - node -v
 
 trigger:
   branch:
