@@ -10,7 +10,7 @@ steps:
     image: nest-pm2-app:latest
     pull: never
     commands:
-      - ll
+      - ls
       - node -v
       - npm -v
 
