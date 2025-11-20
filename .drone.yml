@@ -8,6 +8,7 @@ clone:
 steps:
   - name: clone-repo
     image: nest-pm2-app:latest
+    pull: never
     commands:
       - ll
       - node -v
