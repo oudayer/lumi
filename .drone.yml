@@ -11,3 +11,6 @@ steps:
     commands:
       - ll
 
+trigger:
+  branch:
+    - main
