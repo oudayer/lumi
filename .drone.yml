@@ -10,10 +10,11 @@ steps:
     image: nest-pm2-app:latest
     pull: never
     commands:
+      - npm install pnpm -g
       - git clone https://github.com/oudayer/lumi.git
       - cd lumi
       - ls
-      - npm install pnpm -g
+      - pnpm install
 
 
 trigger:
