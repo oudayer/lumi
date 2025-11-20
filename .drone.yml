@@ -11,6 +11,7 @@ steps:
     commands:
       - ll
       - node -v
+      - npm -v
 
 trigger:
   branch:
